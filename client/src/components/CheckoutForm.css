@@ -1,0 +1,83 @@
+.checkout-form-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(80, 80, 160, 0.10);
+    padding: 2.5rem 2rem;
+    transition: box-shadow 0.2s;
+}
+
+.checkout-form-container:hover {
+    box-shadow: 0 8px 32px rgba(80, 80, 160, 0.18);
+}
+
+.checkout-form-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #4f46e5;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.form-label {
+    color: #3730a3;
+    font-weight: 500;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #c7d2fe;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.form-control:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 0.15rem rgba(99,102,241,.15);
+}
+
+.text-danger {
+    font-size: 0.95rem;
+    margin-top: 0.25rem;
+    color: #dc2626 !important;
+}
+
+.btn-success {
+    background: linear-gradient(90deg, #22d3ee 0%, #6366f1 100%);
+    border: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.75rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(99,102,241,0.08);
+}
+
+.btn-success:hover, .btn-success:focus {
+    background: linear-gradient(90deg, #6366f1 0%, #22d3ee 100%);
+    box-shadow: 0 4px 16px rgba(99,102,241,0.15);
+}
+
+@media (max-width: 600px) {
+    .checkout-form-container {
+        padding: 1rem 0.5rem;
+    }
+}
+.checkout-bg {
+    background: linear-gradient(135deg, #86a2be 0%, #e0e7ff 100%);
+}
+
+.checkout-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(80, 80, 160, 0.10);
+    padding: 2.5rem 2rem;
+}
+
+@media (max-width: 600px) {
+    .checkout-card {
+        padding: 1rem 0.5rem;
+    }
+}

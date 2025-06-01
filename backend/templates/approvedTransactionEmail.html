@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Order Confirmation</title>
+</head>
+<body>
+  <h2 style="color:#16a34a;">Thank you for your order!</h2>
+  <p>Your order <strong>#{{orderNumber}}</strong> has been successfully placed.</p>
+  <h3>Order Details</h3>
+  <ul>
+    <li><strong>Product:</strong> {{productName}}</li>
+    <li><strong>Variant:</strong> {{variant}}</li>
+    <li><strong>Quantity:</strong> {{quantity}}</li>
+    <li><strong>Total:</strong> ${{total}}</li>
+  </ul>
+  <h3>Customer Info</h3>
+  <ul>
+    <li><strong>Name:</strong> {{fullName}}</li>
+    <li><strong>Email:</strong> {{email}}</li>
+    <li><strong>Phone:</strong> {{phone}}</li>
+    <li><strong>Address:</strong> {{address}}, {{city}}, {{state}} {{zipCode}}</li>
+  </ul>
+  <p>We appreciate your business!</p>
+</body>
+</html>

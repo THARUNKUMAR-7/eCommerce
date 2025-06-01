@@ -1,0 +1,16 @@
+.thankyou-bg {
+    background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+}
+
+.thankyou-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(80, 80, 160, 0.10);
+    padding: 2.5rem 2rem;
+}
+
+@media (max-width: 600px) {
+    .thankyou-card {
+        padding: 1rem 0.5rem;
+    }
+}

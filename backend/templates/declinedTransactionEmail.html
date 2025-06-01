@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Order Failed</title>
+</head>
+<body>
+  <h2 style="color:#dc2626;">Transaction Failed</h2>
+  <p>We're sorry, but your order <strong>#{{orderNumber}}</strong> could not be processed.</p>
+  <h3>Reason:</h3>
+  <p>Your transaction was <strong>{{transactionStatus}}</strong>.</p>
+  <p>If you believe this is an error, please try again or contact our support team.</p>
+  <h3>Customer Info</h3>
+  <ul>
+    <li><strong>Name:</strong> {{fullName}}</li>
+    <li><strong>Email:</strong> {{email}}</li>
+  </ul>
+  <p>Thank you for considering us!</p>
+</body>
+</html>
